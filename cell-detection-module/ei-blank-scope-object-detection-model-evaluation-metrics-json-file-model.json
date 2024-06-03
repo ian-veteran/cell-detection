@@ -1,0 +1,131 @@
+{
+    "version": 5,
+    "validation": {
+        "float32": {
+            "support": 5,
+            "confusion_matrix": [
+                [
+                    7212,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    2
+                ]
+            ],
+            "non_background": {
+                "precision": 0.75,
+                "recall": 1.0,
+                "f1": 0.8571428571428571
+            },
+            "classification_report": {
+                "0": {
+                    "precision": 1.0,
+                    "recall": 0.9997227612974772,
+                    "f1-score": 0.99986136143075,
+                    "support": 7214
+                },
+                "1": {
+                    "precision": 0.6666666666666666,
+                    "recall": 1.0,
+                    "f1-score": 0.8,
+                    "support": 4
+                },
+                "2": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2
+                },
+                "accuracy": 0.9997229916897507,
+                "macro avg": {
+                    "precision": 0.8888888888888888,
+                    "recall": 0.9999075870991591,
+                    "f1-score": 0.9332871204769168,
+                    "support": 7220
+                },
+                "weighted avg": {
+                    "precision": 0.9998153277931672,
+                    "recall": 0.9997229916897507,
+                    "f1-score": 0.9997506733187577,
+                    "support": 7220
+                }
+            },
+            "class_names": [
+                "_background",
+                "lymphocytes",
+                "neutrophils"
+            ]
+        },
+        "int8": {
+            "support": 5,
+            "confusion_matrix": [
+                [
+                    7212,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    0
+                ],
+                [
+                    1,
+                    0,
+                    1
+                ]
+            ],
+            "non_background": {
+                "precision": 0.7142857142857143,
+                "recall": 0.8333333333333334,
+                "f1": 0.7692307692307692
+            },
+            "classification_report": {
+                "0": {
+                    "precision": 0.99986136143075,
+                    "recall": 0.9997227612974772,
+                    "f1-score": 0.9997920565606155,
+                    "support": 7214
+                },
+                "1": {
+                    "precision": 0.6666666666666666,
+                    "recall": 1.0,
+                    "f1-score": 0.8,
+                    "support": 4
+                },
+                "2": {
+                    "precision": 1.0,
+                    "recall": 0.5,
+                    "f1-score": 0.6666666666666666,
+                    "support": 2
+                },
+                "accuracy": 0.999584487534626,
+                "macro avg": {
+                    "precision": 0.8888426760324721,
+                    "recall": 0.8332409204324924,
+                    "f1-score": 0.8221529077424274,
+                    "support": 7220
+                },
+                "weighted avg": {
+                    "precision": 0.9996768044360246,
+                    "recall": 0.999584487534626,
+                    "f1-score": 0.9995890899392815,
+                    "support": 7220
+                }
+            },
+            "class_names": [
+                "_background",
+                "lymphocytes",
+                "neutrophils"
+            ]
+        }
+    }
+}
